@@ -3,8 +3,7 @@ permalink: /resources/
 title: "Useful Resources"
 author_profile: true
 redirect_from: 
-  - /resources/
-  - /resources.html
+  - /resources
 ---
 
 Learning AI/ML
