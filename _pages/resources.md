@@ -7,13 +7,16 @@ redirect_from:
 ---
 
 ## Learning Materials
-**AI and Machine Learning**
+**Python Programming and Data Science**
 * [**Python Tutorial by W3Schools**](https://www.w3schools.com/python/)
   - The easiest, most convenient way to start and practice Python for beginners
   - Covering and organizing various topics from the beginner to the advanced levels
-* [**Harvard CS50: Introduction to Computer Science**](https://cs50.harvard.edu/python/2022/)
+* [**Harvard CS50: Introduction to Computer Science**](https://nustat.github.io/DataScience_Intro_python/)
   - Taught and shared for free by [Dr. David J. Malan (Harvard)](https://cs.harvard.edu/malan/)
   - All lecture notes, source codes, and videos are available for free!
+* [**Introduction to Data Science with Python**](https://cs50.harvard.edu/python/2022/)
+  - Developed for the course STAT303-1, Department of Statistics and Data Science at Northwestern University
+  - Textbook content, including Python codes, are available for free!
 
 **Causal Inference and Econometrics**
 * [**Data Science for Causal Inference**](https://www.youtube.com/@causaldatascience) (in Korean)
