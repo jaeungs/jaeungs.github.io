@@ -7,18 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am [an Assistant Professor of Operations and Information Management (OPIM)](https://www.business.uconn.edu/person/jaeung-sim/) at the School of Business, the University of Connecticut (UConn). I usually stay in the Stamford campus, so please feel free to call/text/email me when you travel around New York City! I'm an interdisciplinary researcher aiming to understand how technologies should be implemented to overcome cognitive and societal contraints in the context of **attention economy**, **online platforms**, and **energy economics**.
+I am [an Assistant Professor of Operations and Information Management (OPIM)](https://www.business.uconn.edu/person/jaeung-sim/) at the School of Business, the University of Connecticut (UConn). I usually stay in the Stamford campus, so please feel free to call/text/email me when you travel around New York City!  I'm an interdisciplinary researcher aiming to understand how technologies should be implemented to overcome cognitive and societal contraints in the context of **attention economy**, **online platforms**, and **energy economics**.
 
-### How to call my name?
+### :mega: How to call my name?
 I know how you feel now. You might call me either my given name "Jaeung (재웅, 載雄)" or my family name "Sim (심, 沈)." If you're curious about the original pronunciation in Korean, please visit [this Google Translate page](https://translate.google.com/?sl=ko&tl=en&text=%EC%8B%AC%EC%9E%AC%EC%9B%85&op=translate) and click the "Listen" button on the Korean side (not the English side).
 
 I found my given name sounds like "J. O." to Americans, and my family name actually sounds "Shim" in Korean. I don't care how you call me as long as I can get you. "Hi, Jay" and "Hey, Sim" are also welcome!
 
-### Academic Appointments
+### :pushpin: Academic Appointments
 * School of Business, **University of Connecticut**, Stamford, CT, USA
   * Assistant Professor, Department of Operations and Information Management (OPIM), Aug 2022 - present
 
-### Education
+### :mortar_board: Education
 * College of Business, **Korea Advanced Institute of Science and Technology (KAIST)**, Seoul, Republic of Korea
   * Ph.D. in Management Engineering (Master's/Ph.D. integrated), Feb 2016 - Aug 2022
   * Advisor: [Daegon Cho](https://ysb.yonsei.ac.kr/faculty.asp?mid=n02&sOpt=&uid=297)
