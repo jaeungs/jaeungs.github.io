@@ -28,8 +28,8 @@ redirect_from:
 * [**IS Jobs**](https://isjobs.xyz/)
   - Initiated and primarily managed by [Dr. Zenan (Alan) Chen (UT Dallas)](https://zenan.ch/), contributed by additional voluntary contributors
   - Pubicizing databases for academic job openings in information systems obtained from [INFORMS ISS](https://careercenter.informs.org/) and [AIS Academic Jobs](https://academiccareers.aisnet.org/jobs/)
-* [**Advice on Academic Career in the U.S.**](https://sites.google.com/view/usacademiccareertips/home) (in Korean)
-  - Written by [Dr. Jae Yeon Kim (UNC-Chapel Hill)](https://sites.google.com/view/usacademiccareertips/home)
+* [**Advice on Academic Career in the U.S.**](https://jaeyk.github.io/essays/essays.html) (in English and Korean)
+  - Written by [Dr. Jae Yeon Kim (UNC-Chapel Hill)](https://jaeyk.github.io/)
   - Sharing advice on the job market, job talk, networking, discussion, etc.
 
 **Advice on Mental Health**
