@@ -5,78 +5,83 @@ permalink: /research/
 author_profile: true
 ---
 
+<!-- Page styles -->
+<style>
+  details summary { margin-bottom: 10px; }
+  .paper-group { margin: 1em 0 0.3em 0; font-size: 0.9em; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #7a8288; }
+  .author-note { font-size: 0.8em; color: #7a8288; }
+</style>
+
+<!-- =========================================================
+     RESEARCH INTERESTS (intro)
+     ========================================================= -->
+
 <div id="research-interests">
   <h2 style="margin:1em 0 0 0">Research Interests</h2>
 </div>
 
 <p>
-My research contributes to two main themes: <strong>attention economy</strong> and <strong>sustainable operations</strong>. 
+I study how digital technologies <strong>relocate scarcity</strong>. Content, computing capacity, and even knowledge have become abundant and nearly costless at the margin. Abundance, however, does not remove scarcity; it moves it elsewhere. My research follows scarcity in two streams: the <strong>attention economy</strong>, my primary stream, and <strong>sustainable operations</strong>.
 </p>
 
 <p>
-The first theme, &#127911;<strong>attention economy</strong>&#9200;, addresses how consumers' attention under cognitive restriction is shaped by information technology. 
-Attention becomes the major source of monetization and market values because digital transformation has removed the monetary marginal costs of transactions but not consumers' cognitive resources, 
-which is particularly relevant to subscription-based markets, e.g., streaming platforms.
-My studies in this stream examine how the unique characteristics of streaming platforms interplay with information technologies in shaping consumer behaviors through the lens of behavioral economics.
+<strong>Attention Economy.</strong> When subscriptions, prepaid access, or ad-supported models make one more song, video, or lecture free, price stops limiting consumption, and attention becomes the currency of the market. Consumers pay with their time and cognitive effort instead. I study two sides of this problem: how <em>information directs attention</em> (e.g., bestseller charts, engagement graphs, thumbnails, live commentary, and search tools) and how <em>time constrains attention</em> (e.g., how daily routines and access contracts shape consumption).
 </p>
 
 <p>
-The second theme, &#9851;<strong>sustainable operations</strong>&#127793;, aims to tackle managerial challenges in <strong>online platforms</strong> and <strong>energy economics</strong> stemming from societal consideration. 
-Firstly, my studies investigate how online platforms and their policies can alleviate social injustice, such as inequality, discrimination, and misinformation, occurring on online platforms.
-Secondly, my research examines the roles of technology adoption and implementation in mitigating carbon footprints and mitigating the inequality related to technology. 
+<strong>Sustainable Operations.</strong> My second stream turns to the supply side of digital abundance. I use "sustainable" broadly to cover the environmental, economic, and social sustainability of digital systems. The common thread is that technology delivers its promised gains only when complementary capacity is in place, and this capacity is scarce and unevenly distributed. I study this thread in two settings: <em>digital infrastructure and energy</em>, where the scarce capacity is physical and institutional, and <em>the governance of AI and platforms</em>, where it is human judgment.
 </p>
 
 <p>
-Methodologically, my research benefits from econometrics and experiments to identify causal relationships and complements these approaches with natural language processing and image processing techniques.
-Furthermore, I often use stylized models building on economic theories to provide a parsimonious framework for empirical contexts.
+Methodologically, I use causal inference methods such as natural experiments, regression discontinuity, difference-in-differences, and randomized field and online experiments. I measure behaviors hidden in unstructured data with computer vision, audio analytics, and natural language processing. I complement these empirical approaches with analytical modeling to explain why outcomes change across market conditions.
 </p>
-  
-<div id="myBtnContainer"> 
-  <button class="btn active" onclick="filterSelection('all')"> All </button> 
-  <button class="btn" onclick="filterSelection('streaming')"> Streaming</button> 
-  <button class="btn" onclick="filterSelection('platform')"> Platform</button> 
-  <button class="btn" onclick="filterSelection('sustainability')"> Sustainability</button> 
-  <button class="btn" onclick="filterSelection('AI-ML')"> AI/ML</button> 
+
+<!-- =========================================================
+     FILTER BUTTONS
+     Tag each paper by adding these class names to its filterDiv:
+     streaming, governance, genai, infrastructure, energy,
+     econometrics, experiment, unstructured, modeling
+     ========================================================= -->
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> All </button>
+  <button class="btn" onclick="filterSelection('streaming')"> Streaming &amp; Subscription</button>
+  <button class="btn" onclick="filterSelection('governance')"> Platform Governance</button>
+  <button class="btn" onclick="filterSelection('genai')"> Generative AI</button>
+  <button class="btn" onclick="filterSelection('infrastructure')"> IT Infrastructure</button>
+  <button class="btn" onclick="filterSelection('energy')"> Energy</button>
   <button class="btn" onclick="filterSelection('econometrics')"> Econometrics</button>
-  <button class="btn" onclick="filterSelection('experiment')"> Experiment</button> 
-  <button class="btn" onclick="filterSelection('analytical-modeling')"> Analytical Modeling</button>
+  <button class="btn" onclick="filterSelection('experiment')"> Experiment</button>
+  <button class="btn" onclick="filterSelection('unstructured')"> Unstructured Data</button>
+  <button class="btn" onclick="filterSelection('modeling')"> Analytical Modeling</button>
 </div>
 
-<div id="featured-publications">
-  <h2 style="margin:1em 0 0 0">Featured Publications</h2>
+<p class="author-note">† Equal contribution &nbsp;·&nbsp; ‡ Corresponding author</p>
+
+<!-- =========================================================
+     THEME 1: ATTENTION ECONOMY
+     ========================================================= -->
+
+<div id="attention-economy">
+  <h2 style="margin:1em 0 0 0">Attention Economy</h2>
 </div>
 
-<h3 style="margin:1em 0 0 0">Attention Economy</h3>
+<!-- ---------- SUBTHEME ---------- -->
+<h3 style="margin:1em 0 0 0">Information: What Directs Attention</h3>
 
-<style>
-  /* Add space after the <summary> element */
-  details summary {
-    margin-bottom: 10px; /* Adjust the value as needed */
-  }
-</style>
-
+<p class="paper-group">Publications</p>
 <ul>
-  <div class="filterDiv streaming platform econometrics analytical-modeling">
-    <details>
-      <summary><strong>Jaeung Sim</strong>, Kyungmin Choi, Sang Pil Han, and Daegon Cho (2024) 
-      <a href="https://aisel.aisnet.org/misq/vol48/iss2/12/">In-Consumption Information Cues and Online Video Consumption</a>.
-      <strong><em>MIS Quarterly</em></strong> 48(2), pp. 645-678.</summary>
-      <ul>
-        <li>Earlier versions were presented at CIST 2020, NC State University, UConn, Baruch College, UT Dallas, and American University.</li>
-        <li>
-          <strong>Abstract: </strong>
-          Online video platforms such as YouTube feature visual cues on progress bars to spotlight standout segments of videos. These cues, designed to steer users toward intriguing content moments, raise questions about their overarching impact on video consumption patterns. In this study, we delve into inconsumption information cues (ICICs), indicators that depict fluctuating video quality in real time. Drawing from a natural experiment on a live streaming platform, we evaluate the effects of engagement graphs. These are visual timelines that emphasize moments favored by prior viewers in video-on-demand (VOD) content, which represent full replays of live stream sessions. Notably, these graphs are only accessible to iOS users, leaving Android users without access. Our results show that ICICs enhance the viewership of VODs and live streams. Moreover, viewers tend to spend more time immersed in live broadcasts, suggesting heightened content appeal. Yet, these engagement graphs do not prompt users to donate more virtual gifts, a vital income stream for streamers. Even with the introduction of ICICs, while there is a rise in video production, the inherent structure of live streams remained largely unchanged. We conclude by discussing the academic and managerial implications of these findings.
-        </li>
-      </ul>  
-    </details>
-  </div>
-  <div class="filterDiv streaming platform econometrics">
+
+  <!-- Paper: JEBO 2022 – Bestseller Lists -->
+  <div class="filterDiv streaming econometrics">
     <details>
       <summary><strong>Jaeung Sim</strong>, Jea Gon Park, Daegon Cho, Michael D. Smith, and Jaemin Jung (2022)
       <a href="https://doi.org/10.1016/j.jebo.2021.12.030">Bestseller Lists and Product Discovery in the Subscription-based Market: Evidence from Music Streaming</a>.
-      <strong><em>Journal of Economic Behavior & Organization</em></strong> 194, pp. 550-567.</summary>
+      <strong><em>Journal of Economic Behavior &amp; Organization</em></strong> 194, pp. 550-567.</summary>
+
       <ul>
         <li>Earlier versions were presented at WISE 2017 and SCECR 2018.</li>
+
         <li>
           <strong>Abstract: </strong>
           Our study analyzes the impact of hourly-updated bestseller lists on music discovery in a digital streaming platform to provide evidence of whether and why bestseller lists affect consumer decisions in the subscription-based market. We circumvent the problem of demand-popularity simultaneity by leveraging high-frequency data and a regression discontinuity design. We find that being added to the top 100 charts increases song discovery by 11–13%. Furthermore, a series of analyses suggest that the saliency effect, instead of observational learning, is more likely to drive this behavioral change among streaming users. Specifically, we find that a song's chart entrance increases repeat consumption, normative rank positions within the top 100 lists do not demonstrate significant discontinuity, and an artist or a song's prior popularity does not moderate this effect.
@@ -84,53 +89,140 @@ Furthermore, I often use stylized models building on economic theories to provid
       </ul>
     </details>
   </div>
-  <div class="filterDiv streaming econometrics">
+
+  <!-- Paper: MISQ 2024 – In-Consumption Information Cues -->
+  <div class="filterDiv streaming econometrics modeling">
     <details>
-      <summary><strong>Jaeung Sim</strong>, Daegon Cho, Youngdeok Hwang, and Rahul Telang (2022) 
-      <a href="https://doi.org/10.1287/mksc.2021.1321">Frontiers: Virus Shook the Streaming Star: Estimating the COVID-19 Impact on Music Consumption</a>.
-      <strong><em>Marketing Science</em></strong> 41(1), pp. 19-32.</summary>
+      <summary><strong>Jaeung Sim</strong>, Kyungmin Choi, Sang Pil Han, and Daegon Cho (2024)
+      <a href="https://aisel.aisnet.org/misq/vol48/iss2/12/">In-Consumption Information Cues and Online Video Consumption</a>.
+      <strong><em>MIS Quarterly</em></strong> 48(2), pp. 645-678.</summary>
+
       <ul>
-        <li>Media coverage in <a href="https://loudwire.com/spotify-streaming-declined-during-pandemic-study/">Loudwire</a>, 
-          <a href="https://www.informs.org/About-INFORMS/News-Room/Press-Releases/New-Research-Finds-Digital-Music-Streaming-Consumption-Dropped-as-a-Result-of-COVID-19-and-Lockdowns">INFORMS Press Releases</a>, 
-          <a href="https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=18870">KAIST News Center</a>, 
-          <a href="https://www.cmu.edu/news/stories/archives/2021/july/music-streaming-down-during-pandemic.html">CMU News</a>, 
-          <a href="https://zicklin.baruch.cuny.edu/zicklin_news/music-streaming-declined-during-pandemic-zicklin-professor-finds/">Zicklin News</a>, 
-          <a href="https://www.donga.com/news/article/all/20220118/111311150/1">Dong-A Ilbo</a> (in Korean), 
-          <a href="https://dbr.donga.com/article/view/1202/article_no/10299">Dong-A Business Review</a> (in Korean).
-        </li>
+        <li>Earlier versions were presented at CIST 2020, NC State University, UConn, Baruch College, UT Dallas, and American University.</li>
+
         <li>
           <strong>Abstract: </strong>
-          Many have speculated that the recent outbreak of COVID-19 has led to a surge in the use of online streaming services. However, this assumption has not been closely examined for music streaming services, the consumption patterns of which can be different from video streaming services. To provide insights into this question, we analyze Spotify’s streaming data for the weekly top 200 songs for two years in 60 countries between June 2018 and May 2020, along with varying lockdown policies and detailed daily mobility information from Google. Empirical evidence shows that the COVID-19 outbreak significantly reduced music streaming consumption in many countries. We also find that countries with larger mobility decreases saw more notable downturns in streaming during the pandemic. Further, we reveal that the mobility effect was attributable to the complementarity of music consumption to other activities and likely to be transient rather than irreversible. Alternative mechanisms, such as unobservable Spotify-specific factors, a demand shift from top-selling songs to niche music, and supply-side effects, did not explain the decline in music consumption.
-        </li>
-      </ul> 
-    </details>
-  </div>
-</ul>
-
-<h3 style="margin:1em 0 0 0">Sustainable Operations</h3>
-
-<ul>
-  <div class="filterDiv sustainability econometrics">
-    <details>
-      <summary>Sosung Baik, Jeffrey F. Hines, and <strong>Jaeung Sim</strong> (2023) 
-      <a href="https://doi.org/10.1016/j.eneco.2023.107098">Racial disparities in the energy burden beyond socio-economic inequality</a>.
-      <strong><em>Energy Economics</em></strong> 127(Part A), 107098.</summary>
-      <ul>
-        <li>Media coverage in <a href="https://today.uconn.edu/2023/11/study-says-black-households-pay-higher-heating-costs-seek-cold-related-medical-care-more-often/">UConn Today</a>.</li>
-        <li>
-          <strong>Abstract: </strong>
-          The consequences of climate change are known to be more damaging to historically minoritized groups. Ironically, recent measures to mitigate carbon emissions often negatively influence these groups to a greater extent. Racial and ethnic minorities are one of the well-documented energy vulnerable groups in the residential energy sector. Existing studies primarily attributed the racial and ethnic minorities’ greater energy burden to socio-economic inequality, such as low income and inefficient housing, while other possible sources have received little empirical attention. Analyzing nationally representative U.S. households, we provide evidence that Blacks bear a greater energy burden than others unexplained by socio-economic inequality, and this additional energy burden is primarily driven by Blacks’ extra demand for space heating. Specifically, after controlling for regional, housing, demographic, and appliance/device characteristics, Blacks’ annual energy expenditure exceeds that of the other groups by US$1.6 billion. Examining this gap by end-use type and climate region, we reveal that this extra burden is primarily explained by Blacks’ additional needs for space heating. Further evidence shows that self-reported needs for health services due to low indoor temperature are closely associated with the racial difference in space heating needs. Our results highlight a blind spot yet to be covered by existing energy policies and point to possible recognition injustice.
+          Online video platforms such as YouTube feature visual cues on progress bars to spotlight standout segments of videos. These cues, designed to steer users toward intriguing content moments, raise questions about their overarching impact on video consumption patterns. In this study, we delve into in-consumption information cues (ICICs), indicators that depict fluctuating video quality in real time. Drawing from a natural experiment on a live streaming platform, we evaluate the effects of engagement graphs. These are visual timelines that emphasize moments favored by prior viewers in video-on-demand (VOD) content, which represent full replays of live stream sessions. Notably, these graphs are only accessible to iOS users, leaving Android users without access. Our results show that ICICs enhance the viewership of VODs and live streams. Moreover, viewers tend to spend more time immersed in live broadcasts, suggesting heightened content appeal. Yet, these engagement graphs do not prompt users to donate more virtual gifts, a vital income stream for streamers. Even with the introduction of ICICs, while there is a rise in video production, the inherent structure of live streams remained largely unchanged. We conclude by discussing the academic and managerial implications of these findings.
         </li>
       </ul>
     </details>
   </div>
-  <div class="filterDiv sustainability econometrics">
+</ul>
+
+<p class="paper-group">Working Papers</p>
+<ul>
+
+  <!-- Paper: Catchy or Sketchy (Thumbnails) -->
+  <div class="filterDiv streaming genai econometrics experiment unstructured">
     <details>
-      <summary><strong>Jaeung Sim</strong>, Junyeong Lee, and Daegon Cho (2023) 
+      <summary>Eunsol Cho, <strong>Jaeung Sim</strong>‡, Daegon Cho, and Jiyong Eom. "Catchy or Sketchy? How Thumbnail-Title Congruence Shapes Curiosity and Video Viewership."</summary>
+
+      <ul>
+        <li>Earlier versions were presented at WITS 2021, CIST 2023, INFORMS Annual Meeting 2025, DSI Annual Conference 2025, Post-ICIS KrAIS Workshop, and KAIST College of Business.</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Paper: E-Sports Commentary -->
+  <div class="filterDiv streaming econometrics unstructured">
+    <details>
+      <summary><strong>Jaeung Sim</strong>†, Han Yue†, Jane Gu, and Hongfu Liu. "Cognitive Information Intermediation and Audience Participation in Live Streaming: Evidence from Professional E-Sports."</summary>
+
+      <ul>
+        <li>An earlier version was presented at CIST 2024, UConn, and Yonsei University.</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Paper: Digital Rule of Thumb (Search Resilience) -->
+  <div class="filterDiv econometrics">
+    <details>
+      <summary>Kitae Kim, Dongwon Lee, Sung-Hyuk Park, and <strong>Jaeung Sim</strong>.
+      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5001062">Digital Rule of “Thumb”: Input Environments and Search Resilience in Query Formulation</a>."</summary>
+
+      <ul>
+        <li>Earlier versions were presented at SCECR 2022, INFORMS Workshop on Data Science 2022, ICIS 2022, Post-ICIS KrAIS Workshop 2022, KrAIS Summer Workshop 2023, and WISE 2025.</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Paper: KPop Demon Hunters -->
+  <div class="filterDiv streaming econometrics">
+    <p>Yejin Yu, Daegon Cho, <strong>Jaeung Sim</strong>, and Kyungmin Choi. "From Over-the-Top to Over-the-Sea: Estimating the Impact of KPop Demon Hunters on Cross-Border Offline Spending."</p>
+  </div>
+</ul>
+
+<!-- ---------- SUBTHEME ---------- -->
+<h3 style="margin:1em 0 0 0">Time: What Constrains Attention</h3>
+
+<p class="paper-group">Publications</p>
+<ul>
+
+  <!-- Paper: Marketing Science 2022 – COVID-19 and Music Streaming -->
+  <div class="filterDiv streaming econometrics">
+    <details>
+      <summary><strong>Jaeung Sim</strong>, Daegon Cho, Youngdeok Hwang, and Rahul Telang (2022)
+      <a href="https://doi.org/10.1287/mksc.2021.1321">Frontiers: Virus Shook the Streaming Star: Estimating the COVID-19 Impact on Music Consumption</a>.
+      <strong><em>Marketing Science</em></strong> 41(1), pp. 19-32.</summary>
+
+      <ul>
+        <li>Media coverage in <a href="https://loudwire.com/spotify-streaming-declined-during-pandemic-study/">Loudwire</a>,
+          <a href="https://www.informs.org/About-INFORMS/News-Room/Press-Releases/New-Research-Finds-Digital-Music-Streaming-Consumption-Dropped-as-a-Result-of-COVID-19-and-Lockdowns">INFORMS Press Releases</a>,
+          <a href="https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=18870">KAIST News Center</a>,
+          <a href="https://www.cmu.edu/news/stories/archives/2021/july/music-streaming-down-during-pandemic.html">CMU News</a>,
+          <a href="https://zicklin.baruch.cuny.edu/zicklin_news/music-streaming-declined-during-pandemic-zicklin-professor-finds/">Zicklin News</a>,
+          <a href="https://www.donga.com/news/article/all/20220118/111311150/1">Dong-A Ilbo</a> (in Korean),
+          <a href="https://dbr.donga.com/article/view/1202/article_no/10299">Dong-A Business Review</a> (in Korean).
+        </li>
+
+        <li>
+          <strong>Abstract: </strong>
+          Many have speculated that the recent outbreak of COVID-19 has led to a surge in the use of online streaming services. However, this assumption has not been closely examined for music streaming services, the consumption patterns of which can be different from video streaming services. To provide insights into this question, we analyze Spotify’s streaming data for the weekly top 200 songs for two years in 60 countries between June 2018 and May 2020, along with varying lockdown policies and detailed daily mobility information from Google. Empirical evidence shows that the COVID-19 outbreak significantly reduced music streaming consumption in many countries. We also find that countries with larger mobility decreases saw more notable downturns in streaming during the pandemic. Further, we reveal that the mobility effect was attributable to the complementarity of music consumption to other activities and likely to be transient rather than irreversible. Alternative mechanisms, such as unobservable Spotify-specific factors, a demand shift from top-selling songs to niche music, and supply-side effects, did not explain the decline in music consumption.
+        </li>
+      </ul>
+    </details>
+  </div>
+</ul>
+
+<p class="paper-group">Working Papers</p>
+<ul>
+
+  <!-- Paper: Temporal Subgoals (Prepaid Access) -->
+  <div class="filterDiv streaming experiment">
+    <details>
+      <summary><strong>Jaeung Sim</strong>, Dongwon Lee, Yeolib Kim, Jiye Baek, and Anand Gopal. "When Temporal Subgoals Backfire: A Field Experiment on Granularity in Fixed-Term Prepaid Access Services."</summary>
+
+      <ul>
+        <li>Earlier versions were presented at INFORMS Annual Meeting 2022, CIST 2022, CODE@MIT 2022, WISE 2022, KrAIS Summer Workshop 2023, and Korea University.</li>
+      </ul>
+    </details>
+  </div>
+</ul>
+
+<!-- =========================================================
+     THEME 2: SUSTAINABLE OPERATIONS
+     ========================================================= -->
+
+<div id="sustainable-operations">
+  <h2 style="margin:1em 0 0 0">Sustainable Operations</h2>
+</div>
+
+<!-- ---------- SUBTHEME ---------- -->
+<h3 style="margin:1em 0 0 0">Digital Infrastructure and Sustainability</h3>
+
+<p class="paper-group">Publications</p>
+<ul>
+
+  <!-- Paper: JAIS 2023 – Smart Metering -->
+  <div class="filterDiv infrastructure energy econometrics">
+    <details>
+      <summary><strong>Jaeung Sim</strong>, Junyeong Lee, and Daegon Cho (2023)
       <a href="https://doi.org/10.17705/1jais.00786">On the Effectiveness of Smart Metering Technology Adoption: Evidence from the National Rollout in the United Kingdom</a>.
       <strong><em>Journal of the Association for Information Systems</em></strong> 24(2), pp. 555-591.</summary>
+
       <ul>
         <li>Earlier versions were presented at CIST 2017, ICIS 2017, Seoul Climate-Energy Conference, and KAIST College of Business.</li>
+
         <li>
           <strong>Abstract: </strong>
           In response to the burgeoning threats of climate change to humanity, numerous governments, such as those of the United States and most European countries, have launched rollout programs for the distribution of smart metering technology (SMT). Despite this notable recent investment, questions of whether and why SMT adoption facilitates the reduction of households’ energy demands remain relatively unexplored. Building on cognitive dissonance theory, we propose a research model for SMT adoption, residential energy-saving behaviors, and moderating factors. We then empirically test the model using a rich household dataset from the United Kingdom between 2012 and 2016. Our results show that SMT adoption is positively associated with energy-saving behaviors, while energy-saving motivations substantially moderate this association—a lower level of concern about saving energy / a higher level of concern about climate change amplifies this effect. Importantly, we find that SMT usage positively moderates this relationship, but this marginal gain decreases in technology usage intensity. Our findings contribute to the information systems literature by showing a consequence of new technology adoption along with the role of cognitive dissonance in promoting intended objectives and identifying potential moderating effects. We discuss actionable insights for policymakers and utility firms.
@@ -138,152 +230,146 @@ Furthermore, I often use stylized models building on economic theories to provid
       </ul>
     </details>
   </div>
-  <div class="filterDiv platform sustainability experiment">
+
+  <!-- Paper: Energy Economics 2023 – Racial Energy Burden -->
+  <div class="filterDiv energy econometrics">
     <details>
-      <summary>Jae Yeon Kim, <strong>Jaeung Sim</strong>, and Daegon Cho (2023) 
-      <a href="https://doi.org/10.1007/s10796-021-10229-2">Identity and Status: When Counterspeech Increases Hate Speech Reporting and Why</a>.
-      <strong><em>Information Systems Frontiers</em></strong> 25, pp. 1683–1694.</summary>
+      <summary>Sosung Baik, Jeffrey F. Hines, and <strong>Jaeung Sim</strong>‡ (2023)
+      <a href="https://doi.org/10.1016/j.eneco.2023.107098">Racial disparities in the energy burden beyond socio-economic inequality</a>.
+      <strong><em>Energy Economics</em></strong> 127(Part A), 107098.</summary>
+
       <ul>
-        <li>Earlier version was presented at BIGS 2020.</li>
+        <li>Media coverage in <a href="https://today.uconn.edu/2023/11/study-says-black-households-pay-higher-heating-costs-seek-cold-related-medical-care-more-often/">UConn Today</a>.</li>
+
         <li>
           <strong>Abstract: </strong>
-          Much has been written about how social media platforms enable the rise of networked activism. However, few studies have examined how these platforms’ low-information environments shape how social movement activists, their opponents, and social media platforms interact. Hate speech reporting is one understudied area where such interactions occur. This article fills this gap by examining to what extent and how the gender and popularity of counterspeech in comment sections influence social media users’ willingness to report hate speech on the #MeToo movement. Based on a survey experiment (n = 1250) conducted in South Korea, we find that YouTube users are more willing to report such sexist hate speech when the counterspeech is delivered by a female rather than a male user. However, when the female user’s counterspeech received many upvotes, this was perceived to signal her enhanced status and decreased the intention to report hate speech, particularly among male users. No parallel patterns were found regarding other attitudes toward hate speech, counterspeech, YouTube, the #MeToo movement, and gender discrimination and hate speech legislation. These findings inform that users report hate speech based on potentially harmful content as well as their complex social interactions with other users and the platform.
+          The consequences of climate change are known to be more damaging to historically minoritized groups. Ironically, recent measures to mitigate carbon emissions often negatively influence these groups to a greater extent. Racial and ethnic minorities are one of the well-documented energy vulnerable groups in the residential energy sector. Existing studies primarily attributed the racial and ethnic minorities’ greater energy burden to socio-economic inequality, such as low income and inefficient housing, while other possible sources have received little empirical attention. Analyzing nationally representative U.S. households, we provide evidence that Blacks bear a greater energy burden than others unexplained by socio-economic inequality, and this additional energy burden is primarily driven by Blacks’ extra demand for space heating. Specifically, after controlling for regional, housing, demographic, and appliance/device characteristics, Blacks’ annual energy expenditure exceeds that of the other groups by US$1.6 billion. Examining this gap by end-use type and climate region, we reveal that this extra burden is primarily explained by Blacks’ additional needs for space heating. Further evidence shows that self-reported needs for health services due to low indoor temperature are closely associated with the racial difference in space heating needs. Our results highlight a blind spot yet to be covered by existing energy policies and point to possible recognition injustice.
         </li>
       </ul>
     </details>
   </div>
-  <div class="filterDiv platform sustainability AI-ML econometrics">
+</ul>
+
+<p class="paper-group">Working Papers</p>
+<ul>
+
+  <!-- Paper: Connected or Captive (Cloud Data Centers) -->
+  <div class="filterDiv infrastructure genai econometrics">
+    <p>Jiyong Park† and <strong>Jaeung Sim</strong>†. "Connected or Captive? Cloud Infrastructure, Digital Dependence, and the Reorientation of Innovation."</p>
+  </div>
+
+  <!-- Paper: Sharing Economy in the Cloud (P2P Storage) -->
+  <div class="filterDiv infrastructure modeling">
     <details>
-      <summary>TaeYoung Kang and <strong>Jaeung Sim</strong> (2021) 
+      <summary>YoungJae Jang†, <strong>Jaeung Sim</strong>†, Kun Soo Park, and Daegon Cho.
+      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5000964">Sharing Economy in the Cloud: Pricing Schemes for Peer-to-Peer Storage Platforms</a>."</summary>
+
+      <ul>
+        <li>Best Student Paper Award, Post-ICIS KrAIS Research Workshop 2019.</li>
+
+        <li>Earlier versions were presented at INFORMS Annual Meeting 2019, Post-ICIS KrAIS Research Workshop 2019, and POMS Annual Conference 2024.</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Paper: Industrial Automation and Energy Efficiency -->
+  <div class="filterDiv infrastructure energy econometrics">
+    <details>
+      <summary><strong>Jaeung Sim</strong>† and Jiyong Park†.
+      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5016143">Industrial Automation and Energy Efficiency: Firm-Level Evidence from 97 Countries</a>."</summary>
+
+      <ul>
+        <li>Earlier versions were presented at CIST 2023 and POMS Annual Conference 2024.</li>
+      </ul>
+    </details>
+  </div>
+</ul>
+
+<!-- ---------- SUBTHEME ---------- -->
+<h3 style="margin:1em 0 0 0">Governing AI and Platforms</h3>
+
+<p class="paper-group">Publications</p>
+<ul>
+
+  <!-- Paper: ISF 2023 – Identity and Status -->
+  <div class="filterDiv governance experiment">
+    <details>
+      <summary>Jae Yeon Kim, <strong>Jaeung Sim</strong>, and Daegon Cho (2023)
+      <a href="https://doi.org/10.1007/s10796-021-10229-2">Identity and Status: When Counterspeech Increases Hate Speech Reporting and Why</a>.
+      <strong><em>Information Systems Frontiers</em></strong> 25, pp. 1683–1694.</summary>
+
+      <ul>
+        <li>An earlier version was presented at BIGS 2020.</li>
+
+        <li>
+          <strong>Abstract: </strong>
+          Much has been written about how social media platforms enable the rise of networked activism. However, few studies have examined how these platforms’ low-information environments shape how social movement activists, their opponents, and social media platforms interact. Hate speech reporting is one understudied area where such interactions occur. This article fills this gap by examining to what extent and how the gender and popularity of counterspeech in comment sections influence social media users’ willingness to report hate speech on the #MeToo movement. Based on a survey experiment (n = 1250) conducted in South Korea, we find that YouTube users are more willing to report such sexist hate speech when the counterspeech is delivered by a female rather than a male user. However, when the female user’s counterspeech received many upvotes, this was perceived to signal her enhanced status and decreased the intention to report hate speech, particularly among male users. No parallel patterns were found regarding other attitudes toward hate speech, counterspeech, YouTube, the #MeToo movement, and gender discrimination and hate speech legislation. These findings inform that users report hate speech based on potentially harmful content as well as their complex social interactions with other users and the platform.
+        </li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Paper: ICWSM 2021 – Fact-Checking -->
+  <div class="filterDiv governance econometrics unstructured">
+    <details>
+      <summary>TaeYoung Kang and <strong>Jaeung Sim</strong>‡ (2021)
       <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/18059">Fact-Checking and Partisan Responses in Online News Comments: Evidence from a Political Rumor about the North Korean Leader</a>.
       <em>The 15th International AAAI Conference on Web and Social Media <strong>(ICWSM)</strong></em>, 15(1), pp. 266-277.</summary>
+
       <ul>
         <li>Media coverage in <a href="https://weekly.khan.co.kr/khnm.html?mode=view&artid=202103261300011&code=113">Weekly Magazine of Kyunghyang Shinmun</a> (in Korean).</li>
+
         <li>
           <strong>Abstract: </strong>
           To correct misinformation and mitigate the social costs of political rumors and fake news, news providers, politicians, and researchers have exerted significant efforts on fact-checking and rumor debunking. This study examined how individuals will respond when a political rumor is debunked by large-scale fact-checking. To explore this question, we leveraged a quasi-experimental setting where the North Korean leader’s reappearance in the public event suddenly rebutted a political rumor about his death. Collecting 2.6 million comments from the largest online news portal in South Korea, we employed a difference-in-differences approach comparing differences in commenting behaviors between liberals and conservatives before and after this event. The results show that a political side empowered by the fact-checking coverage became more vocal and hostile. However, their explicit support level for the rumor did not change significantly compared to their partisan counterparts. Besides, we found that news outlets rebutted by fact-checking attracted more user comments than supported news outlets. Swearing comments of the supported political side mostly drove this difference, suggesting that partisans tend to utilize favorable fact-checking to empower their political side through blaming the other side. Our research stresses the importance of capturing the silence of partisans in considering the effectiveness of fact-checking and provides an alternative explanation on why fact-checking evokes hostile communication in online media.
         </li>
-      </ul> 
+      </ul>
     </details>
   </div>
 </ul>
 
-<div id="working-papers">
-  <h2 style="margin:1em 0 1em 0">Working Papers</h2>
+<p class="paper-group">Working Papers</p>
+<ul>
+
+  <!-- Paper: The Proficiency Paradox (GenAI) -->
+  <div class="filterDiv governance genai econometrics">
+    <details>
+      <summary>Ramesh Shankar† and <strong>Jaeung Sim</strong>†.
+      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867815">The Proficiency Paradox: Generative AI, Governance Capacity, and Knowledge-Sharing Systems</a>."</summary>
+
+      <ul>
+        <li>Earlier versions were presented at CIST 2024, AI/ML/BA Conference @Yale 2024, and WISE 2025.</li>
+      </ul>
+    </details>
+  </div>
+</ul>
+
+<!-- =========================================================
+     COLLABORATIVE WORK
+     ========================================================= -->
+
+<div id="collaborative">
+  <h2 style="margin:1em 0 0 0">Collaborative Work</h2>
 </div>
 
-<h3 style="margin:1em 0 0 0">Attention Economy</h3>
-
+<p class="paper-group">Working Papers</p>
 <ul>
-  <div class="filterDiv streaming AI-ML econometrics">
+
+  <!-- Paper: Managing Refund Options -->
+  <div class="filterDiv modeling">
     <details>
-      <summary><strong>Jaeung Sim</strong>, Han Yue, Jane Gu, and Hongfu Liu. "Information, Emotion, or Nothing: Commentator Speech and Real-time Engagement in E-sports."</summary>
+      <summary>Jiung Lee†, <strong>Jaeung Sim</strong>†, YoungJae Jang, Young Soo Park, and Bosung Kim. "Managing Refund Options under Service Capacity Constraints."</summary>
+
       <ul>
-        <li>An earlier version was presented at CIST 2024, and the new version is scheduled to be presented at UConn.</li>
-      </ul>  
-    </details>
-  </div>
-  <div class="filterDiv streaming AI-ML econometrics experiment analytical-modeling">
-    <details>
-      <summary>Eunsol Cho, <strong>Jaeung Sim</strong>, Daegon Cho, and Jiyong Eom. "Rational Analysis of Curiosity and Information Modality in Video Representation."</summary>
-      <ul>
-        <li>Earlier versions were presented at CIST 2023, WITS 2021, Post-ICIS KrAIS Workshop, and KAIST College of Business.</li>
-      </ul> 
-    </details>
-  </div>
-  <div class="filterDiv streaming platform experiment">
-    <details>
-      <summary><strong>Jaeung Sim</strong>, Dongwon Lee, Yeolib Kim, and Jiye Baek. "Dual Blades of Subgoals: A Field Experiment on Goal Setting for Subscription-based Services."</summary>
-      <ul>
-        <li>Earlier versions were presented at CIST 2022, INFORMS Annual Meeting, CODE@MIT 2022, WISE 2022, KrAIS Summer Workshop, and Korea University.</li>
-        <li>
-          <strong>Abstract: </strong>
-          While subscription-based platforms have gained popularity, user engagement often declines shortly after their initial commitment, particularly in personal development contexts that demand sustained motivation. A key factor behind this drop-off is the lack of structure, a paradoxical outcome of the flexibility inherent in subscription models. This research explores whether goal setting can effectively address this early-disengagement problem. Goal setting can help by providing users with clear objectives, but maintaining progress can be challenging without a well-defined structure. We examine how a subgoal-based structure, focusing on subgoal granularity that determines a required time-management style, alters the effectiveness of goal setting. Through a randomized field experiment with online course subscribers, we find that basic goal setting improves both goal-directed and non-promoted engagement. However, adding subgoals tends to backfire, with subgoal conditions generally leading to lower goal-directed engagement. Even the optimal level of subgoal granularity yields only marginal improvement in goal-directed engagement at the expense of non-promoted engagement. Our analysis reveals that subgoals’ adverse effects originate primarily from the increased difficulty of aligning time management with goal achievement, thereby challenging the flexibility that is a crucial benefit of subscription-based services.
-        </li>
-      </ul>
-    </details>
-  </div>
-  <div class="filterDiv platform econometrics">
-    <details>
-      <summary>Kitae Kim, Dongwon Lee, Sung-Hyuk Park, and <strong>Jaeung Sim</strong>. 
-      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5001062">Digital Rule of Thumb: Impact of Autocomplete in Search Engines across Mobile and Personal Computer Channels</a>."</summary>
-      <ul>
-        <li>Earlier versions were presented at SCECR 2022, ICIS 2022, INFORMS Workshop on Data Science, Post-ICIS KrAIS Workshop, and KrAIS Summer Workshop.</li>
-        <li>
-          <strong>Abstract: </strong>
-          This study examines how digital and physical environments shape search inputs, which are crucial yet substantially underexplored determinants of search results. Specifically, we concentrate on autocomplete-the most significant informational tool for search inputs-and scrutinize how it interacts with other input environments, including device types and input interfaces. Employing a unique natural experiment implemented by an online retail company, we discovered that the deactivation of autocomplete for incorrect keywords resulted in a steeper decline in website visits via search engines in a personal computer (PC) channel than in a mobile channel. Furthermore, website visits changed noticeably from the incorrect to the correct keyword in the mobile channel, a shift that was not observed in the PC setting. Breaking down device types within the mobile channel, we found evidence suggesting that input modalities, rather than screen size and mobility, primarily determine these context-dependent responses to autocomplete keyword coverage. Moreover, our findings indicate that the treatment effects are considerable among individuals using incorrect keywords, but not among those using accurate keywords. The findings illustrate an unanticipated interplay between modality and information, with PC users struggling more than mobile users to leverage information technologies.
-        </li>
-      </ul>
-    </details>
-  </div>
-  <div class="filterDiv streaming platform econometrics">
-    <details>
-      <summary><strong>Jaeung Sim</strong>, Daegon Cho, Sunghan Ryu, HanByeol Stella Choi, and Changhee Cho. "Decomposing Monetization in Live-Streamed Media: Streamer-Viewer Dynamics of Gender and Age."</summary>
-      <ul>
-        <li>Earlier versions were presented at ICIS 2019 and SCECR 2021.</li>
-        <li>A preliminary preprint is available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4092684">SSRN 4092684</a>.</li>
+        <li>An earlier version was presented at INFORMS Annual Meeting 2023.</li>
       </ul>
     </details>
   </div>
 </ul>
 
-<h3 style="margin:1em 0 0 0">Sustainable Operations</h3>
-
-<ul>
-  <div class="filterDiv sustainability AI-ML econometrics">
-    <details>
-      <summary><strong>Jaeung Sim</strong>, Jiyong Park. 
-      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5016143">Does Automation Facilitate Sustainable Production? Firm-Level Evidence from 97 Countries</a>."</summary>
-      <ul>
-        <li>Earlier versions were presented at CIST 2023 and POMS Annual Conference.</li>
-        <li>
-          <strong>Abstract: </strong>
-          As the trade-off between decarbonization and productivity poses significant challenges for sustainability, particularly for energy-intensive industries and firms in developing economies, improving energy efficiency emerges as a crucial strategy to align environmental goals with productivity growth. This study examines the role of automation in the industrial sector, enabled by industrial robots, in enhancing corporate energy efficiency and explores how the sustainability potential of robots hinges upon the quality of production inputs and broader social systems and institutions across countries. To this end, we construct a unique dataset by combining the World Bank Enterprise Survey with international trade data on industrial robots, encompassing 96,071 firm-level observations from 97 countries. Our findings demonstrate a positive association between industrial robots and corporate energy efficiency, addressing the productivity-decarbonization trade-off. However, the benefits are found to be disproportionate, with firms in developed countries gaining more than those in developing countries. Moreover, we provide suggestive evidence of the double-edged role of robots in contributing to global disparities in sustainable production, contingent on input quality and social systems. On one hand, industrial robots allow firms to replace low-quality production inputs with more efficient production systems, helping to narrow crosscountry energy efficiency gaps. On the other hand, the quality of social infrastructure, particularly electric power systems, contributes significantly more to widening these disparities in technological capabilities to achieve automation-enabled sustainable production. This study underscores the necessity of tailored strategies to harness industrial automation for sustainable production, providing important policy implications for global sustainability.
-        </li>
-      </ul>
-    </details>
-  </div>
-  <div class="filterDiv platform sustainability AI-ML econometrics">
-    <details>
-      <summary>Ramesh Shankar and <strong>Jaeung Sim</strong>. 
-      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867815">Generative AI on the Loose: Impact of Improved AI and Expert Oversight on Knowledge Sharing</a>."</summary>
-      <ul>
-        <li>Earlier versions were presented at CIST 2024 and AI/ML/BA Conference @Yale.</li>
-        <li>
-          <strong>Abstract: </strong>
-          Generative Artificial Intelligence (GenAI) is transforming knowledge sharing in organizations by generating content, solving complex problems, and providing instant, dialogue-based interactions. However, limitations such as hallucinations and a lack of contextual understanding pose risks, particularly for novices who struggle to assess AI-generated content. This study examines whether advancements in GenAI reduce these concerns and alleviate the need for expert oversight. Using the release of GPT-4 and Stack Overflow's moderation policy changes as a natural experiment, we find that combining GenAI improvements with strict expert oversight reduces the volume of knowledge-sharing activities while significantly enhancing content quality. In contrast, reduced moderation leads to a proliferation of lower-quality content, underscoring the ongoing need for expert-driven oversight. Our findings also reveal heterogeneous effects across user skill levels: while advanced GenAI tools improve the quality of contributions from middle- and low-skilled users, expert oversight remains crucial in maintaining quality, particularly for novice contributors. These insights highlight the evolving role of GenAI in knowledge sharing and the continued importance of expert intervention in ensuring information reliability.
-        </li>
-      </ul>
-    </details>
-  </div>
-  <div class="filterDiv sustainability platform analytical-modeling">
-    <details>
-      <summary>YoungJae Jang, <strong>Jaeung Sim</strong>, Kun Soo Park, Daegon Cho 
-      "<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5000964">Sharing Economy in the Cloud: Pricing Schemes for Peer-to-Peer Storage Platforms</a>."</summary>
-      <ul>
-        <li>Best Student Paper Award from Post-ICIS KrAIS Workshop.</li>
-        <li>Earlier versions were presented at INFORMS Annual Meeting, POMS Annual Conference, and Post-ICIS KrAIS Workshop.</li>
-        <li>
-          <strong>Abstract: </strong>
-          Faced with the rapid increase in data storage demands, peer-to-peer (P2P) storage platforms using blockchain technology have emerged as a promising alternative to traditional cloud services. While blockchain can securely enable the crowdsourcing of unused storage in P2P platforms, the decentralized model does not always guarantee sufficient storage availability. Various incentive schemes can be used to encourage user participation, but little research has explored the theoretical effectiveness of pricing models in this context. This paper analyzes three pricing schemes-two-part tariff, subscription, and hybrid-using a game-theoretic approach to examine interactions among renters, providers, and the platform. We find that the two-part tariff maximizes short-term profits, while subscription pricing yields the highest renter surplus. For overall welfare, the optimal scheme varies based on provider availability. When providers are plentiful, subscription pricing maximizes welfare, but when they are scarce, hybrid or two-part tariff pricing offers the best social welfare outcomes.
-        </li>
-      </ul>
-    </details>
-  </div>
-</ul>
-
-<h3 style="margin:1em 0 0 0">Collaborative</h3>
-
-<ul>
-  <div class="filterDiv platform analytical-modeling">
-    <details>
-      <summary>YoungJae Jang, Young Soo Park, <strong>Jaeung Sim</strong>, and Bosung Kim. "Coping with Service Cancellation: Strategic Role of Capacity Allocation."</summary>
-      <ul>
-        <li>Earlier versions were presented at INFORMS Annual Meeting.</li>
-      </ul>
-    </details>
-  </div>
-</ul>
+<!-- =========================================================
+     FILTER SCRIPT (no edits needed)
+     ========================================================= -->
 
 <script>
   function filterSelection(category) {
@@ -291,9 +377,12 @@ Furthermore, I often use stylized models building on economic theories to provid
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.display = category === "all" || elements[i].classList.contains(category) ? "block" : "none";
     }
+    var buttons = document.querySelectorAll("#myBtnContainer .btn");
+    for (var j = 0; j < buttons.length; j++) {
+      buttons[j].classList.toggle("active", buttons[j].getAttribute("onclick") === "filterSelection('" + category + "')");
+    }
   }
 
-  // Default filter to show all items on page load
   window.onload = function () {
     filterSelection("all");
   };
