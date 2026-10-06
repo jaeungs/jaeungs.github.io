@@ -33,6 +33,6 @@ redirect_from:
   - Sharing advice on the job market, job talk, networking, discussion, etc.
 
 **Advice on Mental Health**
-* [**New York Crab**](https://www.youtube.com/@newyorkcrab/community) (in Korean)
+* [**New York Crab**](https://www.youtube.com/@newyorkcrab) (in Korean)
   - A YouTube channel about personal experience and advice on procrastination, attitude, and relationship
   - The YouTuber received a Ph.D. from a prestigious institution in the U.S. **after 10+ years** and became an assistant professor in the U.S.
