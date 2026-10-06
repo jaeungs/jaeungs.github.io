@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am [an Assistant Professor of Operations and Information Management (OPIM)](https://www.business.uconn.edu/person/jaeung-sim/) at the School of Business, the University of Connecticut (UConn). I usually stay in the Stamford campus, so please feel free to call/text/email me when you travel around New York City! I am an academic researcher aiming to understand how digital technologies relocate scarcity and how they should be implemented to overcome cognitive and societal contraints in the context of **attention economy**, **online platforms**, and **energy economics**.
+I am [an Assistant Professor of Operations and Information Management (OPIM)](https://www.business.uconn.edu/person/jaeung-sim/) at the School of Business, the University of Connecticut (UConn). I usually stay in the Stamford campus, so please feel free to call/text/email me when you travel around New York City! I am an academic researcher aiming to understand how digital technologies relocate scarcity and how they should be implemented to overcome cognitive and societal contraints in the context of **attention economy** and **sustainable operations**.
 
 ### :mega: How to call my name?
 I know how you feel now. You may call me "Jay" instead of "Jaeung (재웅)", which is harder to pronounce and remember. If you're still curious and want to try the original Korean pronunciation, you can roughly say "jeh-oong" in English. When Korean people shorten my name, it's "Woong (웅)," which isn't related to Jay😅
