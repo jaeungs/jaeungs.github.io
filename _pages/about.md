@@ -25,3 +25,7 @@ I know how you feel now. You may call me "Jay" instead of "Jaeung (재웅)", whi
 * **Pohang University of Science and Technology**, Pohang, Republic of Korea
   * B.Sc. in Industrial and Management Engineering (Summa Cum Laude), Mar 2009 - Aug 2015
   * Served in the Republic of Korea Army between 2011 and 2013
+
+### 🔔 Recent Updates
+* (Oct 31-Nov 1, 2026) I am going to attend CIST 2026 in San Francisco, CA! My Ph.D. student coauthor, Chenghang Wang (UConn), will present "Regulating Dark Patterns: Evidence from Subscription-Enabled E-Commerce Platforms" (Chenghang Wang, Jaeung Sim, and Hyeokkoo Eric Kwon) in the first session on Day 1 (Oct 31, 2026).
+* (Sep 30, 2026) My working paper, "Catchy or Sketchy? How Thumbnail-Title Congruence Shapes Curiosity and Video Viewership" (Eunsol Cho, Jaeung Sim, Daegon Cho, and Jiyong Eom) is now available at [SSRN]([https://www.business.uconn.edu/person/jaeung-sim/](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543822)). 
